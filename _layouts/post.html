@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="shortcut icon" href="../assets/icons/favicon.svg" type="image/x-icon">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/tablet.css" media="screen and (max-width: 1100px)">
+        <script 
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+            crossorigin="anonymous">
+        </script>
+    </head>
+
+<body>
+    {% include header.html %}
+    {% include mobile-toc.html %}
+    <div class="post">
+        {% include toc.html %}
+        <article>
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+        </article>
+    </div>
+    <div class="sibling-pages">
+        <div class="sibling-page">
+            {% if page.previous %}
+            <div class="vertical-align">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -5 24 24" width="24" fill="currentColor">
+                    <path
+                        d="M2.757 7l4.95 4.95a1 1 0 1 1-1.414 1.414L.636 7.707a1 1 0 0 1 0-1.414L6.293.636A1 1 0 0 1 7.707 2.05L2.757 7z">
+                    </path>
+                </svg>
+                <a href="/references/{{ page.previous.permalink }}">{{ page.previous.title }}</a>
+            </div>
+            {% endif %}
+        </div>
+        <div class="sibling-page">
+            {% if page.next %}
+            <div class="vertical-align">
+                <a href="/references/{{ page.next.permalink }}">{{ page.next.title }}</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -5 24 24" width="24" fill="currentColor">
+                    <path
+                        d="M5.314 7.071l-4.95-4.95A1 1 0 0 1 1.778.707l5.657 5.657a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 0 1-1.414-1.414l4.95-4.95z">
+                    </path>
+                </svg>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% include footer.html %}
+</body>

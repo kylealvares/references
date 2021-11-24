@@ -1,0 +1,30 @@
+<nav class="toc">
+  <ul>
+    {% if page.collections[0] == 'postgres' %}
+      {% assign data = site.data.tocs.postgres %}
+    {% else %}
+      {% assign data = site.data.tocs.nav %}
+    {% endif %}
+    <strong id="topic">{{ data.topic }}</strong>
+    {% for nav in data.contents %}
+      {% if nav.subcategories %}
+      <li>
+        {% if nav.title %}
+        <strong><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></strong>
+        {% else %}
+        <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+        {% endif %}
+        <ul>
+          {% for subcategory in nav.subcategories %}
+          <li><a href="{{ site.url }}{{ subcategory.href }}">{{ subcategory.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% else %}
+      <li>
+        <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

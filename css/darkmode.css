@@ -1,0 +1,35 @@
+.darkmode * {
+    color: white;
+}
+
+body.darkmode {
+    background-color: black;
+}
+
+.darkmode a {
+    color: white;
+}
+
+.darkmode .post .toc a {
+    color: var(--gray-20);
+}
+
+.darkmode .sibling-pages {
+    background-color: var(--gray-90);
+    color: var(--gray-10);
+}
+
+/* INDEX */
+
+.darkmode .landing-cards-container {
+    background-color: var(--gray-90);
+
+}
+
+.darkmode #index .landing-cards {
+    background-color: var(--gray-90);
+}
+
+.darkmode #index a.landing-card {
+    background-color: var(--gray-70);
+}

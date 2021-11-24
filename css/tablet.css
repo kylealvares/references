@@ -1,0 +1,79 @@
+:root {
+    --side-padding: 30px;
+}
+
+header #header-content, .content, .post, .mobile-toc, footer {
+    padding: 0 var(--side-padding);
+}
+
+#index .landing {
+    padding-left: var(--side-padding);
+    padding-right: var(--side-padding);
+}
+
+.post .toc {
+    display: none;
+}
+
+.mobile-toc {
+    display: block;
+    background-color: var(--gray-90);
+    transition: 0.4s ease;
+}
+
+.mobile-toc * {
+    color: var(--gray-10);
+}
+
+/* .mobile-toc-body {
+    display: none;
+} */
+
+.mobile-toc-topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mobile-toc:hover {
+    cursor: pointer;
+}
+
+.mobile-toc-topic svg {
+    margin-left: 5px;
+    transition: 0.4s ease;
+}
+
+.mobile-toc-body {
+    display: none;
+    margin-top: calc(44px + 48px);
+    height: calc(100vh - 44px - 48px);
+    max-height: calc(100vh - 44px - 48px);
+    overflow-y: auto;
+}
+
+.mobile-toc-body ul li {
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.post {
+    display: block;
+    margin-top: 50px;
+}
+
+.post article {
+    width: 100%;
+}
+
+.sibling-pages {
+    width: 100%;
+}
+
+.sibling-pages .sibling-page {
+    font-size: 16px;
+}

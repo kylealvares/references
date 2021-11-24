@@ -1,0 +1,31 @@
+---
+layout: free
+title: References
+---
+
+<div id="index">
+
+  <div class="landing">
+    <img src="..{{ site.baseurl }}/assets/img/people.png" alt="decorative">
+    <h1>{{ page.title }}</h1>
+    <p class="index-desc">
+      A portal of references for all your computer science needs.
+    </p>
+    <a href="#landing-cards" class="btn">Start Learning</a>
+  </div>
+
+
+<div class="landing-cards-container">
+  <h2>Topics</h2>  
+  <div id="landing-cards" class="landing-cards">
+    {% for post in site.data.index %}
+          <a href={{ post.href }} class="landing-card">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.desc }}</p>
+        </a>
+    {% endfor %}
+  </div>
+</div>
+
+
+</div>

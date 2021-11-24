@@ -1,0 +1,92 @@
+<!-- <nav class="mobile-toc">
+  <ul>
+    {% if page.collections[0] == 'postgres' %}
+    {% assign data = site.data.tocs.postgres %}
+    {% else %}
+    {% assign data = site.data.tocs.nav %}
+    {% endif %}
+    <strong id="topic">{{ data.topic }}</strong>
+    {% for nav in data.contents %}
+    {% if nav.subcategories %}
+    <li>
+      {% if nav.title %}
+      <strong><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></strong>
+      {% else %}
+      <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+      {% endif %}
+      <ul>
+        {% for subcategory in nav.subcategories %}
+        <li><a href="{{ site.url }}{{ subcategory.href }}">{{ subcategory.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% else %}
+    <li>
+      <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</nav> -->
+
+{% if page.collections[0] == 'postgres' %}
+{% assign data = site.data.tocs.postgres %}
+{% else %}
+{% assign data = site.data.tocs.nav %}
+{% endif %}
+
+<div class="mobile-toc">
+  <div id="mobile-toc-topic" class="mobile-toc-topic">
+    {{ data.topic }}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -8 24 24" width="24" fill="currentColor">
+      <path
+        d="M7.071 5.314l4.95-4.95a1 1 0 1 1 1.414 1.414L7.778 7.435a1 1 0 0 1-1.414 0L.707 1.778A1 1 0 1 1 2.121.364l4.95 4.95z">
+      </path>
+    </svg>
+  </div>
+  <div id="mobile-toc-body" class="mobile-toc-body">
+    <nav>
+      <ul>
+        {% if page.collections[0] == 'postgres' %}
+        {% assign data = site.data.tocs.postgres %}
+        {% else %}
+        {% assign data = site.data.tocs.nav %}
+        {% endif %}
+        {% for nav in data.contents %}
+        {% if nav.subcategories %}
+        <li>
+          {% if nav.title %}
+          <strong><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></strong>
+          {% else %}
+          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+          {% endif %}
+          <ul>
+            {% for subcategory in nav.subcategories %}
+            <li><a href="{{ site.url }}{{ subcategory.href }}">{{ subcategory.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
+        <li>
+          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</div>
+<script>
+  displayingMenu = false;
+  console.log('running');
+  $('#mobile-toc-topic').click(e => {
+    if (displayingMenu) {
+      $('#mobile-toc-topic svg').css('transform', 'rotate(0deg)');
+      $('#mobile-toc-body').hide();
+    } else {
+      $('#mobile-toc-topic svg').css('transform', 'rotate(180deg)');
+      $('#mobile-toc-body').show();
+    }
+    displayingMenu = !displayingMenu;
+  });
+</script>

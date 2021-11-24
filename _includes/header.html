@@ -1,0 +1,39 @@
+<header>
+    <div id="header-content">
+        <a href="{{ site.baseurl }}/" id="logo">References</a>
+        <div id="theme-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="24" fill="white">
+                <path
+                    d="M10 18c.112 0 .112-5.333 0-16a8 8 0 1 0 0 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z">
+                </path>
+            </svg>
+        </div>
+    </div>
+</header>
+<script>
+    const theme = localStorage.getItem('theme');
+    if (!theme) {
+        isDarkMode = false;
+        localStorage.setItem('theme', 'light');
+    } else {
+        if (theme === "dark") {
+            isDarkMode = true;
+            $('body').addClass('darkmode');
+        } else {
+            isDarkMode = false;
+        }
+    }
+    $('#theme-toggle').click(() => {
+        if (isDarkMode) {
+            $('#theme-toggle').css('transform', 'rotate(0deg)');
+            $('body').removeClass('darkmode');
+            localStorage.setItem('theme', 'light');
+            isDarkMode = false;
+        } else {
+            $('#theme-toggle').css('transform', 'rotate(180deg)');
+            $('body').addClass('darkmode');
+            localStorage.setItem('theme', 'dark');
+            isDarkMode = true;
+        }
+    });
+</script>

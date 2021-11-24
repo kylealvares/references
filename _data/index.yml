@@ -1,0 +1,13 @@
+# cards for index
+- title: Algorithms
+  desc: Problem solving for pros.
+  href: /references/algorithms/introduction
+- title: PostgreSQL
+  desc: An open source object-relational database system.
+  href: /references/postgresql/introduction
+- title: Clojure
+  desc: Coming soon...
+  href: '#'
+- title: Java
+  desc: Coming soon...
+  href: '#'
