@@ -2,5 +2,5 @@ topic: PostgreSQL
 contents:
   - title: Introduction
     href: /references/postgresql/introduction
-  - title: Prequisites
-    href: /references/postgresql/prereqs
+  - title: Terminal Basics
+    href: /references/postgresql/terminal-basics

@@ -1,5 +1,5 @@
 .darkmode * {
-    color: white;
+    color: var(--gray-20);
 }
 
 body.darkmode {
@@ -14,10 +14,19 @@ body.darkmode {
     color: var(--gray-20);
 }
 
+.darkmode thead {
+    border-bottom: 1px solid white;
+}
+
+.darkmode tbody tr {
+    border-bottom: 1px solid var(--gray-80);
+}
+
 .darkmode .sibling-pages {
     background-color: var(--gray-90);
     color: var(--gray-10);
 }
+
 
 /* INDEX */
 
