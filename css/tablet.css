@@ -59,6 +59,7 @@ header #header-content, .content, .post, .mobile-toc, footer {
     margin: 10px;
     font-size: 18px;
     text-align: center;
+    list-style-type: none;
 }
 
 .post {

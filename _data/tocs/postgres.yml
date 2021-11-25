@@ -8,3 +8,10 @@ contents:
     href: /references/postgresql/create-database
   - title: Deleting a Database
     href: /references/postgresql/delete-database
+  - title: Creating a Table
+    href: /references/postgresql/create-table
+    subcategories:
+      - title: Common Data Types
+        href: /references/postgresql/create-table#common-data-types
+  - title: Deleting a Table
+    href: /references/postgresql/delete-table

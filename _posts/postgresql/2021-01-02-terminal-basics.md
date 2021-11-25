@@ -52,8 +52,12 @@ Password for user postgres:
             <td>Connects to a database</td>
         </tr>
         <tr>
-            <td>\d [database / table]</td>
-            <td>Describes a database / table</td>
+            <td>\d</td>
+            <td>Describes the connected database</td>
+        </tr>
+        <tr>
+            <td>\d [table]</td>
+            <td>Describes a table</td>
         </tr>
         <tr>
             <td>\i [file]</td>
