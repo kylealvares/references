@@ -22,6 +22,10 @@ body.darkmode {
     border-bottom: 1px solid var(--gray-80);
 }
 
+.darkmode td {
+    color: var(--gray-30);
+}
+
 .darkmode .sibling-pages {
     background-color: var(--gray-90);
     color: var(--gray-10);

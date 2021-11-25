@@ -4,3 +4,7 @@ contents:
     href: /references/postgresql/introduction
   - title: Terminal Basics
     href: /references/postgresql/terminal-basics
+  - title: Creating a Database
+    href: /references/postgresql/create-database
+  - title: Deleting a Database
+    href: /references/postgresql/delete-database
