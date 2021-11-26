@@ -1,7 +1,7 @@
 topic: PostgreSQL
 contents:
   - title: Introduction
-    href: /references/postgresql/introduction
+    href: /references/postgresql
   - title: Terminal Basics
     href: /references/postgresql/terminal-basics
   - title: Creating a Database
@@ -15,3 +15,13 @@ contents:
         href: /references/postgresql/create-table#common-data-types
   - title: Deleting a Table
     href: /references/postgresql/delete-table
+  - title: Primary Key
+    href: /references/postgresql/primary-key
+    subcategories:
+      - title: Composite Keys
+        href: /references/postgresql/primary-key#composite-key
+  - title: Unique Constraint
+    href: /references/postgresql/unique
+    subcategories:
+      - title: Primary Key vs. Unique
+        href: /references/postgresql/unique#pvu-key

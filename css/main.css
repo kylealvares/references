@@ -151,7 +151,8 @@ ul ul {
 .post article p,
 .post article table,
 .post article dl,
-.post article pre {
+.post article pre,
+.post article ol {
     margin-bottom: 20px;
 }
 
@@ -254,6 +255,10 @@ td {
     font-weight: 500;
     padding: 8px 0;
     color: var(--gray-70);
+}
+
+ol {
+    margin-left: 16px;
 }
 
 dt {

@@ -71,10 +71,10 @@ CREATE TABLE <table-name> (
 
 {% highlight sql %}
 CREATE TABLE Companies (
-    Name TEXT,
-    Type TEXT,
-    Founded INT,
-    HQ TEXT
+    name TEXT,
+    type TEXT,
+    founded INT,
+    hq TEXT
 );
 {% endhighlight %}
 
