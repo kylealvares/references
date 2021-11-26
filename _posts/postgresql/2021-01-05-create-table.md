@@ -54,6 +54,8 @@ To create a table you will need to list out the attribute names, and specify the
     </tbody>
 </table>
 
+Note that values can be set to ```NULL```.
+
 ### Syntax
 
 {% highlight sql %}
