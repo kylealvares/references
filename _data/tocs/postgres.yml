@@ -1,7 +1,7 @@
 topic: PostgreSQL
 contents:
   - title: Introduction
-    href: /references/postgresql
+    href: /references/postgresql/introduction
   - title: Terminal Basics
     href: /references/postgresql/terminal-basics
   - title: Creating a Database
