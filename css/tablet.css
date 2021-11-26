@@ -49,7 +49,8 @@ header #header-content, .content, .post, .mobile-toc, footer {
 
 .mobile-toc-body {
     display: none;
-    margin-top: calc(44px + 48px);
+    /* margin-top: calc(44px + 48px); */
+    margin-top: 15px;
     height: calc(100vh - 44px - 48px);
     max-height: calc(100vh - 44px - 48px);
     overflow-y: auto;
@@ -58,7 +59,7 @@ header #header-content, .content, .post, .mobile-toc, footer {
 .mobile-toc-body ul li {
     margin: 10px;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     list-style-type: none;
 }
 
