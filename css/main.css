@@ -261,6 +261,14 @@ ol {
     margin-left: 16px;
 }
 
+ol li {
+    margin-bottom: 5px;
+
+}
+ol ol {
+    margin-top: 5px;
+}
+
 dt {
     font-weight: 500;
 }

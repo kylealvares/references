@@ -32,11 +32,11 @@ To create a table you will need to list out the attribute names, and specify the
             <td>decimal values (6 decimal digits precision)</td>
         </tr>
         <tr>
-            <td>char (n)</td>
+            <td>char(n)</td>
             <td>text of fixed length, blank padded</td>
         </tr>
         <tr>
-            <td>varchar (n)</td>
+            <td>varchar(n)</td>
             <td>text of varying length up to 'n' characters</td>
         </tr>
         <tr>
@@ -54,13 +54,14 @@ To create a table you will need to list out the attribute names, and specify the
     </tbody>
 </table>
 
-Note that values can be set to ```NULL```.
+Note that values can be set to ```NULL```. 
+To ensure a value is not null, use the ```NOT NULL``` constraint.
 
 ### Syntax
 
 {% highlight sql %}
 CREATE TABLE <table-name> (
-    <attribute-name> <data-type>,
+    <attribute-name> <data-type> NOT NULL,
     <attribute-name> <data-type>,
     <attribute-name> <data-type>,
     ...
