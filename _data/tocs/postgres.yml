@@ -24,6 +24,6 @@ contents:
     href: /references/postgresql/unique
     subcategories:
       - title: Primary Key vs. Unique
-        href: /references/postgresql/unique#pvu-key
+        href: /references/postgresql/unique#pvu-keys
   - title: Inserting Values
     href: /references/postgresql/inserting-values

@@ -2,6 +2,7 @@
 @import url('colors.css');
 @import url('darkmode.css');
 @import url('scrollbar.css');
+/* @import url('syntax.css'); */
 
 :root {
     /* FONTS */
