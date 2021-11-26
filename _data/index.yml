@@ -4,7 +4,7 @@
   href: /references/algorithms/introduction
 - title: PostgreSQL
   desc: An open source object-relational database system.
-  href: /references/postgresql
+  href: /references/postgresql/introduction
 - title: Clojure
   desc: Coming soon...
   href: '#'
