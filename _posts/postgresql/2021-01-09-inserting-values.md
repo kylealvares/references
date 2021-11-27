@@ -27,6 +27,9 @@ VALUES ('Paypal', 'Finance', 1998, 'United Stated'),
 VALUES ('Blackberry', 'Technology', 1984, 'Canada');
 {% endhighlight %}
 
+[Mockaroo](https://mockaroo.com/){: target="blank"} allows you to generate up to 1,000 rows of realistic test data in CSV, JSON, **SQL**, and Excel formats.
+
+### Useful psql commands
 
 <table>
     <thead>

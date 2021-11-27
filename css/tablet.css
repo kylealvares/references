@@ -51,9 +51,10 @@ header #header-content, .content, .post, .mobile-toc, footer {
     display: none;
     /* margin-top: calc(44px + 48px); */
     margin-top: 15px;
-    height: calc(100vh - 44px - 48px);
-    max-height: calc(100vh - 44px - 48px);
-    overflow-y: auto;
+    min-height: calc(100vh - 44px - 48px);
+    padding-bottom: 30px;
+    /* max-height: calc(100vh - 44px - 48px); */
+    /* overflow-y: auto; */
 }
 
 .mobile-toc-body ul li {

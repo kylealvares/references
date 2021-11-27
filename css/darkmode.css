@@ -26,6 +26,10 @@ body.darkmode {
     color: var(--gray-30);
 }
 
+.darkmode blockquote {
+    border-left: 3px solid var(--gray-20);
+}
+
 .darkmode .sibling-pages {
     background-color: var(--gray-90);
     color: var(--gray-10);

@@ -289,7 +289,7 @@ pre {
 
 :not(pre) > code {
     padding: 2px 5px;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: var(--radius);
     background-color: rgba(150, 150, 150, 0.3);
     font-family: var(--code-font);
@@ -301,7 +301,7 @@ code * {
 
 blockquote {
     padding-left: 10px;
-    border-left: 3px solid white;
+    border-left: 3px solid var(--gray-80);
 }
 
 img {
@@ -342,7 +342,7 @@ tag {
     border-radius: 25px;
 }
 
-/* pre, hr, blockquote */
+/* pre, hr */
 
 .vertical-align {
     display: flex;

@@ -14,7 +14,7 @@ PostgreSQL is available for download as ready-to-use packages or installers for 
 ### Starting the terminal
 
 When starting the psql terminal you will be asked to enter the connection information (as shown below). 
-The default values are marked within the brackets.
+The default values are specified within the brackets.
 If you want to use the default value just hit enter.
 
 {% highlight http %}

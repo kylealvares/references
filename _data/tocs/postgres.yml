@@ -27,3 +27,17 @@ contents:
         href: /references/postgresql/unique#pvu-keys
   - title: Inserting Values
     href: /references/postgresql/inserting-values
+  - title: Altering a Table
+    href: /references/postgresql/altering-table
+    subcategories:
+      - title: Adding a Column
+        href: /references/postgresql/altering-table#add-col
+      - title: Removing a Column
+        href: /references/postgresql/altering-table#remove-col
+  - title: Select Statment
+    href: /references/postgresql/select
+    subcategories:
+        - title: Selecting All Columns
+          href: /references/postgresql/select#select-all
+        - title: Selecting Specific Columns
+          href: /references/postgresql/select#select-specific
