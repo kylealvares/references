@@ -21,10 +21,10 @@ VALUES (<list-of-values>);
 
 {% highlight sql %}
 INSERT INTO Companies (name, type, founded, hq) 
-VALUES ('Walmart', 'Retail', 1962, 'United Stated'),
-VALUES ('Disney', 'Entertainment', 1923, 'United Stated'),
-VALUES ('Paypal', 'Finance', 1998, 'United Stated'),
-VALUES ('Blackberry', 'Technology', 1984, 'Canada');
+VALUES ('Walmart', 'Retail', 1962, 'United States'),
+('Disney', 'Entertainment', 1923, 'United States'),
+('Paypal', 'Finance', 1998, 'United States'),
+('Blackberry', 'Technology', 1984, 'Canada');
 {% endhighlight %}
 
 [Mockaroo](https://mockaroo.com/){: target="blank"} allows you to generate up to 1,000 rows of realistic test data in CSV, JSON, **SQL**, and Excel formats.

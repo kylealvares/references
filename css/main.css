@@ -21,8 +21,8 @@
 
 /* width */
 ::-webkit-scrollbar {   
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 5px;
 }
 
 /* Track */
@@ -120,6 +120,7 @@ header #theme-toggle svg {
     width: 200px;
     margin-top: 50px;
     margin-right: 25px;
+    padding-bottom: 25px;
     font-size: 14px;
     font-weight: 500;
 }
@@ -163,6 +164,13 @@ ul ul {
     margin-bottom: 10px;
 }
 
+.post article h4,
+.post article h5,
+.post article h6 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
 .post .toc li {
     list-style-type: none;
 }
@@ -173,23 +181,25 @@ ul ul {
 
 .sibling-pages {
     display: flex;
-    flex: 1 1;
+    justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: var(--gray-10);
 }
 
 .sibling-pages .sibling-page {
+    padding-left: 25px;
+    padding-right: 25px;
     font-size: 18px;
     font-weight: 600;
-    width: 100%;   
+    /* width: 100%;    */
 }
-
+/* 
 .sibling-page:last-child {
     display: flex;
     justify-content: right;
     text-align: right;
-}
+} */
 
 .sibling-page svg {
     height: 20px;

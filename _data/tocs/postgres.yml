@@ -41,3 +41,5 @@ contents:
           href: /references/postgresql/select#select-all
         - title: Selecting Specific Columns
           href: /references/postgresql/select#select-specific
+  - title: Order By
+    href: /references/postgresql/order-by
