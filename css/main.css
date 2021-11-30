@@ -150,11 +150,29 @@ ul ul {
     margin-bottom: 16px;
 }
 
+.post article p {
+    line-height: 1.5rem;
+}
+
+.post article ul {
+    margin-top: -10px;
+    margin-left: 32px;
+}
+
+.post article ul li {
+    margin-bottom: 5px;
+
+}
+.post article ul ul {
+    margin-top: 5px;
+}
+
 .post article p,
 .post article table,
 .post article dl,
 .post article pre,
-.post article ol {
+.post article ol,
+.post article ul {
     margin-bottom: 20px;
 }
 

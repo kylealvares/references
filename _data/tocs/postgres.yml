@@ -41,5 +41,18 @@ contents:
           href: /references/postgresql/select#select-all
         - title: Selecting Specific Columns
           href: /references/postgresql/select#select-specific
-  - title: Order By
-    href: /references/postgresql/order-by
+  - title: Select Distinct
+    href: /references/postgresql/distinct
+  - title: Conditionals
+    href: /references/postgresql/conditionals
+  - title: Comparisons
+    href: /references/postgresql/comparisons
+  - title: Limit, Offset, Fetch
+    href: /references/postgresql/limit-offset-fetch
+    subcategories:
+      - title: Limit
+        href: /references/postgresql/limit-offset-fetch#limit
+      - title: Offset
+        href: /references/postgresql/limit-offset-fetch#offset
+      - title: Fetch
+        href: /references/postgresql/limit-offset-fetch#fetch
