@@ -15,7 +15,7 @@ The ```LIMIT``` clause limits the amount of retrieved rows based on the specifie
 #### Syntax
 
 {% highlight sql %}
-SELECT <attribute-list> FROM <table-name> LIMIT <limit>; 
+SELECT <columns> FROM <table-name> LIMIT <limit>; 
 {% endhighlight %}
 
 #### Example
@@ -63,7 +63,7 @@ The ```OFFSET``` clause offsets the first set of rows given by an ```ORDER BY```
 #### Syntax
 
 {% highlight sql %}
-SELECT <attribute-list> FROM <table-name>
+SELECT <columns> FROM <table-name>
 ORDER BY <attribute-name>
 OFFSET <offset>; 
 {% endhighlight %}
@@ -104,7 +104,7 @@ The ```FETCH``` clause is used with ```ORDER BY``` and ```OFFSET``` to retrieve 
 #### Syntax
 
 {% highlight sql %}
-SELECT <attribute-list> FROM <table-name>
+SELECT <columns> FROM <table-name>
 ORDER BY <attribute-name>
 OFFSET <offset>
 FETCH <fetch-details>; 

@@ -11,7 +11,7 @@ collections:
 The ```CREATE TABLE``` command is used to create a table in SQL.
 
 Tables are created within databases.
-To create a table you will need to list out the attribute names, and specify their data types.
+To create a table you will need to list out the column names, and specify their data types.
 
 <h3 id="common-data-types">Common data types</h3>
 
@@ -61,9 +61,9 @@ To ensure a value is not null, use the ```NOT NULL``` constraint.
 
 {% highlight sql %}
 CREATE TABLE <table-name> (
-    <attribute-name> <data-type> NOT NULL,
-    <attribute-name> <data-type>,
-    <attribute-name> <data-type>,
+    <column-name> <data-type> NOT NULL,
+    <column-name> <data-type>,
+    <column-name> <data-type>,
     ...
 );
 {% endhighlight %}

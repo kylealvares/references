@@ -17,7 +17,7 @@ Columns can be added or removed after a table is created.
 ### Syntax
 
 {% highlight sql %}
-ALTER TABLE <table-name> ADD <attribute-name> <attribute-constraints>;
+ALTER TABLE <table-name> ADD <column-name> <column-constraints>;
 {% endhighlight %}
 
 ### Example
@@ -34,7 +34,7 @@ ADD stock_price REAL;
 ### Syntax
 
 {% highlight sql %}
-ALTER TABLE <table-name> DROP <attribute-name>;
+ALTER TABLE <table-name> DROP <column-name>;
 {% endhighlight %}
 
 ### Example

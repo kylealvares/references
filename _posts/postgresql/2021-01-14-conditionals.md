@@ -20,7 +20,7 @@ The ```NOT``` operator is used to specify when a condition is not true.
 ### Syntax
 
 {% highlight sql %}
-SELECT <attribute-list> FROM <table-name> WHERE <condition>
+SELECT <columns> FROM <table-name> WHERE <condition>
 {% endhighlight %}
 
 ### Example #1

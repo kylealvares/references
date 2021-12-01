@@ -56,3 +56,7 @@ contents:
         href: /references/postgresql/limit-offset-fetch#offset
       - title: Fetch
         href: /references/postgresql/limit-offset-fetch#fetch
+  - title: In Operator
+    href: /references/postgresql/in
+  - title: Between
+    href: /references/postgresql/between

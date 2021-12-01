@@ -20,8 +20,8 @@ There can only be one primary key per table. Each primary key value must be uniq
 
 {% highlight sql %}
 CREATE TABLE <table-name> (
-    <attribute-name> <attribute-type> PRIMARY KEY,
-    <attribute-name> <attribute-type>,
+    <column-name> <column-type> PRIMARY KEY,
+    <column-name> <column-type>,
     ...
 );
 {% endhighlight %}

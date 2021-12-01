@@ -49,7 +49,7 @@ Comparison operators are operators that evaluate to ```true``` or ```false```.
 ### Syntax
 
 {% highlight sql %}
-SELECT <attribute-list> FROM <table-name> WHERE <condition>; 
+SELECT <columns> FROM <table-name> WHERE <condition>; 
 {% endhighlight %}
 
 ### Example 
