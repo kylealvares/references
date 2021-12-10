@@ -17,13 +17,13 @@ When starting the psql terminal you will be asked to enter the connection inform
 The default values are specified within the brackets.
 If you want to use the default value just hit enter.
 
-{% highlight http %}
+```https
 Server [localhost]:
 Database [postgres]:
 Port [5432]:
 Username [postgres]:
 Password for user postgres: 
-{% endhighlight %}
+```
 
 ### Common psql commands
 

@@ -59,25 +59,25 @@ To ensure a value is not null, use the ```NOT NULL``` constraint.
 
 ### Syntax
 
-{% highlight sql %}
+```https
 CREATE TABLE <table-name> (
     <column-name> <data-type> NOT NULL,
     <column-name> <data-type>,
     <column-name> <data-type>,
     ...
 );
-{% endhighlight %}
+```
 
 ### Example
 
-{% highlight sql %}
+```https
 CREATE TABLE Companies (
     name TEXT,
     type TEXT,
     founded INT,
     hq TEXT
 );
-{% endhighlight %}
+```
 
 ### Useful psql commands
 

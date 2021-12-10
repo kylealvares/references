@@ -12,20 +12,20 @@ The ```INSERT INTO``` command is used to insert a single or multiple rows of val
 
 ### Syntax
 
-{% highlight sql %}
+```https
 INSERT INTO <table-name> (<list-of-attributes>) 
 VALUES (<list-of-values>);
-{% endhighlight %}
+```
 
 ### Example
 
-{% highlight sql %}
+```https
 INSERT INTO Companies (name, type, founded, hq) 
 VALUES ('Walmart', 'Retail', 1962, 'United States'),
 ('Disney', 'Entertainment', 1923, 'United States'),
 ('Paypal', 'Finance', 1998, 'United States'),
 ('Blackberry', 'Technology', 1984, 'Canada');
-{% endhighlight %}
+```
 
 [Mockaroo](https://mockaroo.com/){: target="blank"} allows you to generate up to 1,000 rows of realistic test data in CSV, JSON, **SQL**, and Excel formats.
 

@@ -12,13 +12,12 @@ The ```DROP TABLE``` command is used to create a table in SQL.
 
 ### Syntax
 
-{% highlight sql %}
+```https
 DROP TABLE <table-name>;
-{% endhighlight %}
+```
 
 ### Example
 
-{% highlight sql %}
+```https
 DROP TABLE Companies;
-{% endhighlight %}
-
+```

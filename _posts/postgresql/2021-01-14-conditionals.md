@@ -19,15 +19,15 @@ The ```NOT``` operator is used to specify when a condition is not true.
 
 ### Syntax
 
-{% highlight sql %}
+```https
 SELECT <columns> FROM <table-name> WHERE <condition>
-{% endhighlight %}
+```
 
 ### Example #1
 
-{% highlight sql %}
+```https
 SELECT name, founded, hq FROM Companies WHERE hq='United States'; 
-{% endhighlight %}
+```
 
 <table>
     <caption>Result from Example #1</caption>
@@ -59,10 +59,10 @@ SELECT name, founded, hq FROM Companies WHERE hq='United States';
 
 ### Example #2
 
-{% highlight sql %}
+```https
 SELECT name, founded, hq FROM Companies 
 WHERE founded=1998 OR hq='Canada'; 
-{% endhighlight %}
+```
 
 <table>
     <caption>Result from Example #2</caption>
@@ -89,11 +89,11 @@ WHERE founded=1998 OR hq='Canada';
 
 ### Example #3
 
-{% highlight sql %}
+```https
 SELECT name, founded, hq FROM Companies 
 WHERE hq='United States' AND 
 (founded='1923' OR founded='1998'); 
-{% endhighlight %}
+```
 
 <table>
     <caption>Result from Example #3</caption>
@@ -120,11 +120,11 @@ WHERE hq='United States' AND
 
 ### Example #4
 
-{% highlight sql %}
+```https
 SELECT name, founded, hq FROM Companies 
 WHERE hq='United States'
 ORDER BY founded; 
-{% endhighlight %}
+```
 
 <table>
     <caption>Result from Example #4</caption>
@@ -156,10 +156,10 @@ ORDER BY founded;
 
 ### Example #5
 
-{% highlight sql %}
+```https
 SELECT name, founded, hq FROM Companies 
 WHERE NOT hq='United States'; 
-{% endhighlight %}
+```
 
 <table>
     <caption>Result from Example #5</caption>

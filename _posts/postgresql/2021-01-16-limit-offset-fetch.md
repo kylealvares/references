@@ -14,15 +14,15 @@ The ```LIMIT``` clause limits the amount of retrieved rows based on the specifie
 
 #### Syntax
 
-{% highlight sql %}
+```https
 SELECT <columns> FROM <table-name> LIMIT <limit>; 
-{% endhighlight %}
+```
 
 #### Example
 
-{% highlight sql %}
+```https
 SELECT * FROM Companies LIMIT 3; 
-{% endhighlight %}
+```
 
 <table>
     <caption>First 3 rows of the Companies</caption>
@@ -62,20 +62,20 @@ The ```OFFSET``` clause offsets the first set of rows given by an ```ORDER BY```
 
 #### Syntax
 
-{% highlight sql %}
+```https
 SELECT <columns> FROM <table-name>
 ORDER BY <attribute-name>
 OFFSET <offset>; 
-{% endhighlight %}
+```
 
 #### Example
 
-{% highlight sql %}
+```https
 SELECT * FROM Companies
 ORDER BY name
 OFFSET 2
 LIMIT 1; 
-{% endhighlight %}
+```
 
 <table>
     <caption>1 row from Companies ordered by name offset by 2</caption>
@@ -103,21 +103,21 @@ The ```FETCH``` clause is used with ```ORDER BY``` and ```OFFSET``` to retrieve 
 
 #### Syntax
 
-{% highlight sql %}
+```https
 SELECT <columns> FROM <table-name>
 ORDER BY <attribute-name>
 OFFSET <offset>
 FETCH <fetch-details>; 
-{% endhighlight %}
+```
 
 #### Example
 
-{% highlight sql %}
+```https
 SELECT * FROM Companies
 ORDER BY name
 OFFSET 2
 FETCH FIRST 2 ROW ONLY; 
-{% endhighlight %}
+```
 
 <table>
     <caption>2 rows fetched from Companies, ordered by name, offset by 2</caption>

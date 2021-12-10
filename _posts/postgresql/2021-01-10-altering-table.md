@@ -16,31 +16,31 @@ Columns can be added or removed after a table is created.
 
 ### Syntax
 
-{% highlight sql %}
+```https
 ALTER TABLE <table-name> ADD <column-name> <column-constraints>;
-{% endhighlight %}
+```
 
 ### Example
 
-{% highlight sql %}
+```https
 ALTER TABLE Companies 
 ADD stock_symbol VARCHAR(5) UNIQUE, 
 ADD stock_price REAL;
-{% endhighlight %}
+```
 
 ## Removing a Column 
 {: id="remove-col"}
 
 ### Syntax
 
-{% highlight sql %}
+```https
 ALTER TABLE <table-name> DROP <column-name>;
-{% endhighlight %}
+```
 
 ### Example
 
-{% highlight sql %}
+```https
 ALTER TABLE Companies
 DROP stock_symbol, 
 DROP stock_price;
-{% endhighlight %}
+```

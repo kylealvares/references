@@ -18,30 +18,30 @@ There can only be one primary key per table. Each primary key value must be uniq
 
 ### Syntax
 
-{% highlight sql %}
+```https
 CREATE TABLE <table-name> (
     <column-name> <column-type> PRIMARY KEY,
     <column-name> <column-type>,
     ...
 );
-{% endhighlight %}
+```
 
 ### Example
 
-{% highlight sql %}
+```https
 CREATE TABLE Companies (
     name TEXT PRIMARY KEY,
     type TEXT,
     founded INT,
     hq TEXT,
 );
-{% endhighlight %}
+```
 
 <h2 id="composite-key">Composite Keys</h2>
 
 A composite key is **the set of attributes that identifies a each row in a table**.
 
-{% highlight sql %}
+```https
 CREATE TABLE Companies (
     name TEXT,
     type TEXT,
@@ -49,4 +49,4 @@ CREATE TABLE Companies (
     hq TEXT,
     PRIMARY KEY(Name, Founded)
 );
-{% endhighlight %}
+```

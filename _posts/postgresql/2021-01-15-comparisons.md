@@ -48,14 +48,14 @@ Comparison operators are operators that evaluate to ```true``` or ```false```.
 
 ### Syntax
 
-{% highlight sql %}
+```https
 SELECT <columns> FROM <table-name> WHERE <condition>; 
-{% endhighlight %}
+```
 
 ### Example 
-{% highlight sql %}
+```https
 SELECT name, founded FROM Companies WHERE founded < 1980; 
-{% endhighlight %}
+```
 
 <table>
     <caption>Result from Example #1</caption>
