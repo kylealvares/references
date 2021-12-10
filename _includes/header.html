@@ -13,13 +13,15 @@
 <script>
     const theme = localStorage.getItem('theme');
     if (!theme) {
-        isDarkMode = false;
-        localStorage.setItem('theme', 'light');
+        $('body').addClass('darkmode');
+        isDarkMode = true;
+        localStorage.setItem('theme', 'dark');
     } else {
         if (theme === "dark") {
             isDarkMode = true;
             $('body').addClass('darkmode');
         } else {
+            $('body').removeClass('darkmode');
             isDarkMode = false;
         }
     }

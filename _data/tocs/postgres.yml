@@ -60,3 +60,7 @@ contents:
     href: /references/postgresql/in
   - title: Between
     href: /references/postgresql/between
+  - title: Like
+    href: /references/postgresql/like
+  - title: Group By
+    href: /references/postgresql/group-by

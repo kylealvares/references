@@ -1,13 +1,13 @@
 # cards for index
-- title: Algorithms
+- title: Analysis & Design of Algorithms
   desc: Problem solving for pros.
   href: /references/algorithms/introduction
-- title: PostgreSQL
+- title: Database Systems
   desc: An open source object-relational database system.
   href: /references/postgresql/introduction
-- title: Clojure
+- title: Programming Languages
   desc: Coming soon...
-  href: '#'
+  href: /references/programming-languages/introduction
 - title: Java
   desc: Coming soon...
   href: '#'
