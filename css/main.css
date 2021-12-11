@@ -242,6 +242,10 @@ a:hover {
     text-decoration: underline;
 }
 
+strong {
+    color: var(--gray-70);
+}
+
 table {
     display: table;
     overflow: auto;
@@ -252,6 +256,13 @@ table {
 tr td,
 tr th {
     padding-left: 10px;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+    font-size: 14px;
 }
 
 table caption {

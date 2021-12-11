@@ -3,9 +3,7 @@ created: 2021-01-02 12:00:00 -500
 layout: post
 title: Terminal Basics
 permalink: postgresql/terminal-basics
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 PostgreSQL is available for download as ready-to-use packages or installers for various platforms, as well as a source code archive if you want to build it yourself. In addition PostgreSQL comes with a command line interface.

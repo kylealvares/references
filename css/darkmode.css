@@ -6,6 +6,10 @@ body.darkmode {
     background-color: black;
 }
 
+.darkmode strong {
+    color: white;
+}
+
 .darkmode a {
     color: white;
 }

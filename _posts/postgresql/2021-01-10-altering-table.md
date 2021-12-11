@@ -3,9 +3,7 @@ created: 2021-01-10 12:00:00 -500
 layout: post
 title: Altering a Table
 permalink: postgresql/altering-table
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 The ```ALTER TABLE``` command is used to alter a table. 

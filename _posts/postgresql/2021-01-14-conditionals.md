@@ -3,9 +3,7 @@ created: 2021-01-14 12:00:00 -500
 layout: post
 title: Conditionals
 permalink: postgresql/conditionals
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 The ```WHERE``` clause is used to specify conditions of the queried result.

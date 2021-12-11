@@ -4,8 +4,7 @@ layout: post
 title: Limit, Offset, Fetch
 permalink: postgresql/limit-offset-fetch
 categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 ### Limit

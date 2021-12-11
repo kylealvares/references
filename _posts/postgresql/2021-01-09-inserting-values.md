@@ -3,9 +3,7 @@ created: 2021-01-05 12:00:00 -500
 layout: post
 title: Inserting Values
 permalink: postgresql/inserting-values
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 The ```INSERT INTO``` command is used to insert a single or multiple rows of values into a table.

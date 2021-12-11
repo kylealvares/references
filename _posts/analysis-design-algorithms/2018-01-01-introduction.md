@@ -3,8 +3,8 @@ created: 2021-9-23 18:38:00 -500
 layout: post
 title: Introduction
 permalink: algorithms/introduction
-categories: algorithms
-toc: site.data.nav
+collections: algorithms
+toc: site.data.algorithms
 ---
 
 Algorithms are steps for solving a problem. 
@@ -39,8 +39,16 @@ There are several items to consider when analyzing algorithms including:
 An algorithm is a step by step procedure to solving a task,
 whereas pseudocode is a method for writing an algorithm.
 
+### Fibonacci Psuedocode:
 ```https
-begin
-
-endds
+Fib(n):
+1   if n == 0 or n == 1
+2       return 1
+3   else 
+4       return Fib(n - 1) + Fib(n - 2)
 ```
+
+<!-- ## Case Study: Insertion Sort
+```https
+incomplete
+``` -->

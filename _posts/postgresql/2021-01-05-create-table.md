@@ -3,9 +3,7 @@ created: 2021-01-05 12:00:00 -500
 layout: post
 title: Creating a Table
 permalink: postgresql/create-table
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 The ```CREATE TABLE``` command is used to create a table in SQL.

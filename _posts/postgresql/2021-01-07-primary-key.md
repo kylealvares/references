@@ -3,9 +3,7 @@ created: 2021-01-07 12:00:00 -500
 layout: post
 title: Primary Key
 permalink: postgresql/primary-key
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 A key is **an attribute or set of attributes that are used to uniquely identify a tuple in a relation**.

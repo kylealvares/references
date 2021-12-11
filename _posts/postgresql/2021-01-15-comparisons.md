@@ -3,9 +3,7 @@ created: 2021-01-15 12:00:00 -500
 layout: post
 title: Comparisons
 permalink: postgresql/comparisons
-categories: postgres
-collections: 
-    - postgres
+collections: postgres
 ---
 
 Comparison operators are operators that evaluate to ```true``` or ```false```.

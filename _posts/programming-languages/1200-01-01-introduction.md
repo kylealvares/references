@@ -2,9 +2,7 @@
 layout: post
 title: Introduction
 permalink: programming-languages/introduction
-categories: programming-languages
-collections: 
-    - programming-languages
+collections: programming-languages
 ---
 
 Test
