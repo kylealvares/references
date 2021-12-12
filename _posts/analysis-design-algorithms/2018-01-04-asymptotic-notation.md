@@ -13,6 +13,14 @@ This notation is convenient for determining worst-case run time scenarios ```T(n
 However in some cases asyptotic extend the domain to the set of real numbers or restrict it to 
 a subset of the natural numbers.
 
+
+
+![big oh, theta and omega graphs](../assets/img/analysis-design-algorithms/asymptotic-notation-light.svg)
+{: class="light-version" }
+
+![big oh, theta and omega graphs](../assets/img/analysis-design-algorithms/asymptotic-notation-dark.svg)
+{: class="dark-version" }
+
 ## Functions
 
 <table>
@@ -67,9 +75,8 @@ a subset of the natural numbers.
     </tbody>
 </table>
 
-<!-- ## Big-Oh (O) Notation
+## Big-Oh (O) Notation
 
 ## Big-Omega (Ω) Notation
 
 ## Big-Theta (Θ) Notation
- -->

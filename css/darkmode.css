@@ -2,6 +2,14 @@
     color: var(--gray-20);
 }
 
+.darkmode .light-version {
+    display: none;
+}
+
+.darkmode .dark-version {
+    display: block;
+}
+
 body.darkmode {
     background-color: black;
 }

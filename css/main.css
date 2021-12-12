@@ -102,6 +102,14 @@ header #theme-toggle svg {
     height: 20px;
 }
 
+.light-version {
+    display: block;
+}
+
+.dark-version {
+    display: none;
+}
+
 .content {
     min-height: 80vh;
 }
