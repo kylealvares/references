@@ -18,8 +18,8 @@ body.darkmode {
     color: white;
 }
 
-.darkmode a {
-    color: white;
+.darkmode .post article a {
+    color: var(--cool-gray-30);
 }
 
 .darkmode .post .toc a {

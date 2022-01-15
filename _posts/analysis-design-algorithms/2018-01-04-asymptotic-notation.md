@@ -14,7 +14,6 @@ However in some cases asyptotic extend the domain to the set of real numbers or 
 a subset of the natural numbers.
 
 
-
 ![big oh, theta and omega graphs](../assets/img/analysis-design-algorithms/asymptotic-notation-light.svg)
 {: class="light-version" }
 
@@ -25,7 +24,7 @@ a subset of the natural numbers.
 
 <table>
     <caption>Functions from least to greatest time complexity</caption>
-    <thead>
+    <thead>  
         <tr>
             <th>Function</th>
             <th>Notation</th>
@@ -75,8 +74,8 @@ a subset of the natural numbers.
     </tbody>
 </table>
 
-## Big-Oh (O) Notation
+<!-- ## Big-Oh (O) Notation -->
 
-## Big-Omega (Ω) Notation
+<!-- ## Big-Omega (Ω) Notation -->
 
-## Big-Theta (Θ) Notation
+<!-- ## Big-Theta (Θ) Notation -->

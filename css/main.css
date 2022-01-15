@@ -162,6 +162,11 @@ ul ul {
     line-height: 1.5rem;
 }
 
+.post article a {
+    color: var(--cool-gray-70);
+    text-decoration: underline;
+}
+
 .post article ul {
     margin-top: -10px;
     margin-left: 32px;
@@ -402,6 +407,13 @@ a.btn {
     border-radius: 25px;
     color: white;
     background-color: var(--blue-60);
+    transition: 0.4s ease;
+}
+
+a.btn:hover {
+    background-color: #0e76ff;
+    text-decoration: none;
+    transition: 0.4s ease;
 }
 
 /* INDEX */
