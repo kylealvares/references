@@ -69,3 +69,14 @@ contents:
       href: /references/postgresql/group-by#group-by-having
   - title: Aggregate Functions
     href: /references/postgresql/aggregate-functions
+  - title: Arithmetic Operators
+    href: /references/postgresql/arithmetic-operators
+  - title: Renaming Columns
+    href: /references/postgresql/renaming-columns
+  - title: Coalesce
+    href: /references/postgresql/coalesce
+  - title: Nullif
+    href: /references/postgresql/nullif
+  - title: Date, Time, Age
+    href: /references/postgresql/date
+

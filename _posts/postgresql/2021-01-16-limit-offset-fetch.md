@@ -7,17 +7,17 @@ categories: postgres
 collections: postgres
 ---
 
-### Limit
+## Limit
 
 The ```LIMIT``` clause limits the amount of retrieved rows based on the specified limit.
 
-#### Syntax
+### Syntax
 
 ```https
 SELECT <columns> FROM <table-name> LIMIT <limit>; 
 ```
 
-#### Example
+### Example
 
 ```https
 SELECT * FROM Companies LIMIT 3; 
@@ -55,11 +55,11 @@ SELECT * FROM Companies LIMIT 3;
     </tbody>
 </table>
 
-### Offset
+## Offset
 
 The ```OFFSET``` clause offsets the first set of rows given by an ```ORDER BY``` clause.
 
-#### Syntax
+### Syntax
 
 ```https
 SELECT <columns> FROM <table-name>
@@ -67,7 +67,7 @@ ORDER BY <attribute-name>
 OFFSET <offset>; 
 ```
 
-#### Example
+### Example
 
 ```https
 SELECT * FROM Companies
@@ -96,11 +96,11 @@ LIMIT 1;
     </tbody>
 </table>
 
-### Fetch
+## Fetch
 
 The ```FETCH``` clause is used with ```ORDER BY``` and ```OFFSET``` to retrieve rows.
 
-#### Syntax
+### Syntax
 
 ```https
 SELECT <columns> FROM <table-name>
@@ -109,7 +109,7 @@ OFFSET <offset>
 FETCH <fetch-details>; 
 ```
 
-#### Example
+### Example
 
 ```https
 SELECT * FROM Companies
