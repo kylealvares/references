@@ -46,3 +46,4 @@ This can be achieved through *complementary* methods:
 * **Inspection** consists of regular human reviews of requirements, design, architecture, schedules, and code review.
 * **Metrics** are used to measure a known set of simple properties related to quality by instrumenting code or execution.
 
+Testing, inspection and metrics account for the majority of software quality assurance. 
