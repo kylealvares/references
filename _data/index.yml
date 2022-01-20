@@ -1,5 +1,5 @@
 # cards for index
-- title: Analysis & Design of Algorithms
+- title: Data Structures and Algorithms
   desc: Problem solving for pros.
   href: /references/algorithms/introduction
 - title: Database Systems
@@ -8,6 +8,6 @@
 - title: Programming Languages
   desc: Coming soon...
   href: /references/programming-languages/introduction
-- title: Java
-  desc: Coming soon...
-  href: '#'
+- title: Software Quality Assurance
+  desc: The name says it all
+  href: '/references/sqa/introduction'

@@ -2,7 +2,7 @@
 @import url('colors.css');
 @import url('darkmode.css');
 @import url('scrollbar.css');
-/* @import url('syntax.css'); */
+@import url('syntax.css'); 
 
 :root {
     /* FONTS */
@@ -41,6 +41,16 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
     background: var(--gray-40);
+}
+
+/* SYNTAX */
+
+pre code.hljs {
+    padding: 0;
+}
+
+code.hljs {
+    background: transparent;
 }
 
 * {
@@ -215,7 +225,7 @@ ul ul {
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: var(--gray-10);
+    background-color: var(--gray-20);
 }
 
 .sibling-pages .sibling-page {
@@ -332,10 +342,12 @@ dd {
 
 pre {
     display: block;
-    padding: 10px 15px;
+    padding: 13px;
     text-align: left;
     border-radius: var(--radius);
-    background-color: rgba(150, 150, 150, 0.3);
+    background-color: var(--gray-20);
+    /* background-color: #282C34; */
+    /* background-color: rgba(200, 200, 200, 0.3); */
     overflow-x: auto;
 }
 
@@ -348,6 +360,10 @@ pre {
 }
 
 code {
+    font-family: var(--code-font);
+}
+
+code * {
     font-family: var(--code-font);
 }
 

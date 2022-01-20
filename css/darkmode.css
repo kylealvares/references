@@ -47,6 +47,15 @@ body.darkmode {
     color: var(--gray-10);
 }
 
+/* SYNTAX */
+.darkmode code.hljs {
+    padding: 0;
+    background: transparent;
+}
+
+.darkmode pre  {
+    background-color: var(--gray-90);
+}
 
 /* INDEX */
 

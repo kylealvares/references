@@ -1,149 +1,303 @@
-.highlight .language-java table td { padding: 5px; }
-.highlight .language-java table pre { margin: 0; }
-.highlight .language-java .c, .highlight .language-java .ch, .highlight .language-java .cd, .highlight .language-java .cm, .highlight .language-java .cpf, .highlight .language-java .c1 {
+/* ATOM ONE LIGHT */
+
+.hljs {
+  color: #383a42;
+  background: #fafafa;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #a626a4;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e45649;
+}
+
+.hljs-literal {
+  color: #0184bb;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string {
+  color: #50a14f;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #986801;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #4078f2;
+}
+
+.hljs-built_in,
+.hljs-title.class_,
+.hljs-class .hljs-title {
+  color: #c18401;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+/* ATOM ONE DARK */
+
+.darkmode .hljs {
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.darkmode .hljs-comment,
+.darkmode .hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.darkmode .hljs-doctag,
+.darkmode .hljs-keyword,
+.darkmode .hljs-formula {
+  color: #c678dd;
+}
+
+.darkmode .hljs-section,
+.darkmode .hljs-name,
+.darkmode .hljs-selector-tag,
+.darkmode .hljs-deletion,
+.darkmode .hljs-subst {
+  color: #e06c75;
+}
+
+.darkmode .hljs-literal {
+  color: #56b6c2;
+}
+
+.darkmode .hljs-string,
+.darkmode .hljs-regexp,
+.darkmode .hljs-addition,
+.darkmode .hljs-attribute,
+.darkmode .hljs-meta .hljs-string {
+  color: #98c379;
+}
+
+.darkmode .hljs-attr,
+.darkmode .hljs-variable,
+.darkmode .hljs-template-variable,
+.darkmode .hljs-type,
+.darkmode .hljs-selector-class,
+.darkmode .hljs-selector-attr,
+.darkmode .hljs-selector-pseudo,
+.darkmode .hljs-number {
+  color: #d19a66;
+}
+
+.darkmode .hljs-symbol,
+.darkmode .hljs-bullet,
+.darkmode .hljs-link,
+.darkmode .hljs-meta,
+.darkmode .hljs-selector-id,
+.darkmode .hljs-title {
+  color: #61aeee;
+}
+
+.darkmode .hljs-built_in,
+.darkmode .hljs-title.class_,
+.darkmode .hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.darkmode .hljs-emphasis {
+  font-style: italic;
+}
+
+.darkmode .hljs-strong {
+  font-weight: bold;
+}
+
+.darkmode .hljs-link {
+  text-decoration: underline;
+}
+
+/* .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1 {
   color: #888888;
 }
-.highlight .language-java .cp {
+.highlight .cp {
   color: #cc0000;
   font-weight: bold;
 }
-.highlight .language-java .cs {
+.highlight .cs {
   color: #cc0000;
   background-color: #fff0f0;
   font-weight: bold;
 }
-.highlight .language-java .err {
+.highlight .err {
   color: #a61717;
   background-color: #e3d2d2;
 }
-.highlight .language-java .gr {
+.highlight .gr {
   color: #aa0000;
 }
-.highlight .language-java .gh {
+.highlight .gh {
   color: #333333;
 }
-.highlight .language-java .gu {
+.highlight .gu {
   color: #666666;
 }
-.highlight .language-java .gd {
+.highlight .gd {
   color: #000000;
   background-color: #ffdddd;
 }
-.highlight .language-java .gi {
+.highlight .gi {
   color: #000000;
   background-color: #ddffdd;
 }
-.highlight .language-java .ge {
+.highlight .ge {
   font-style: italic;
 }
-.highlight .language-java .gs {
+.highlight .gs {
   font-weight: bold;
 }
-.highlight .language-java .gl {
+.highlight .gl {
   color: #888888;
 }
-.highlight .language-java .go {
+.highlight .go {
   color: #888888;
 }
-.highlight .language-java .gp {
+.highlight .gp {
   color: #555555;
 }
-.highlight .language-java .gt {
+.highlight .gt {
   color: #aa0000;
 }
-.highlight .language-java .k, .highlight .language-java .kc, .highlight .language-java .kd, .highlight .language-java .kn, .highlight .language-java .kr, .highlight .language-java .kv {
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kr, .highlight .kv {
   color: #008800;
   font-weight: bold;
 }
-.highlight .language-java .kp {
+.highlight .kp {
   color: #008800;
 }
-.highlight .language-java .kt {
+.highlight .kt {
   color: #888888;
   font-weight: bold;
 }
-.highlight .language-java .m, .highlight .language-java .mb, .highlight .language-java .mf, .highlight .language-java .mh, .highlight .language-java .mi, .highlight .language-java .il, .highlight .language-java .mo, .highlight .language-java .mx {
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
   color: #0000dd;
   font-weight: bold;
 }
-.highlight .language-java .s, .highlight .language-java .sb, .highlight .language-java .sc, .highlight .language-java .dl, .highlight .language-java .sd, .highlight .language-java .s2, .highlight .language-java .sh, .highlight .language-java .s1 {
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .s1 {
   color: var(--green-60);
 }
-.highlight .language-java .sa {
+.highlight .sa {
   color: #008800;
   font-weight: bold;
 }
-.highlight .language-java .se {
+.highlight .se {
   color: #0044dd;
   background-color: #fff0f0;
 }
-.highlight .language-java .si {
+.highlight .si {
   color: #3333bb;
   background-color: #fff0f0;
 }
-.highlight .language-java .sx {
+.highlight .sx {
   color: #22bb22;
   background-color: #f0fff0;
 }
-.highlight .language-java .sr {
+.highlight .sr {
   color: #008800;
 }
-.highlight .language-java .ss {
+.highlight .ss {
   color: #aa6600;
   background-color: #fff0f0;
 }
-.highlight .language-java .na {
+.highlight .na {
   color: #336699;
 }
-.highlight .language-java .nb, .highlight .language-java .bp {
+.highlight .nb, .highlight .bp {
   color: #003388;
 }
-.highlight .language-java .nc {
+.highlight .nc {
   color: #bb0066;
   font-weight: bold;
 }
-.highlight .language-java .no {
+.highlight .no {
   color: #003366;
   font-weight: bold;
 }
-.highlight .language-java .nd {
+.highlight .nd {
   color: #555555;
 }
-.highlight .language-java .ne {
+.highlight .ne {
   color: #bb0066;
   font-weight: bold;
 }
-.highlight .language-java .nf, .highlight .language-java .fm {
+.highlight .nf, .highlight .fm {
   color: #0066bb;
   font-weight: bold;
 }
-.highlight .language-java .nl {
+.highlight .nl {
   color: #336699;
 }
-.highlight .language-java .nn {
+.highlight .nn {
   color: #bb0066;
   font-weight: bold;
 }
-.highlight .language-java .py {
+.highlight .py {
   color: #336699;
   font-weight: bold;
 }
-.highlight .language-java .nt {
+.highlight .nt {
   color: #bb0066;
   font-weight: bold;
 }
-.highlight .language-java .nv, .highlight .language-java .vc, .highlight .language-java .vm {
+.highlight .nv, .highlight .vc, .highlight .vm {
   color: #336699;
 }
-.highlight .language-java .vg {
+.highlight .vg {
   color: #dd7700;
 }
-.highlight .language-java .vi {
+.highlight .vi {
   color: #3333bb;
 }
-.highlight .language-java .ow {
+.highlight .ow {
   color: #008800;
 }
-.highlight .language-java .w {
+.highlight .w {
   color: #bbbbbb;
-}
+} */
