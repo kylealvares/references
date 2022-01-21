@@ -17,33 +17,47 @@ The amount of time it takes for code to run varies not only between devices, but
 This is due to the fact that time is affected by factors such as hardware, programming language, number of applications open, and so on.
 As a result, rather than measuring the time it takes a program to run, it is preferable to count the number of operations and see how it changes as input size increases.
 
-<!-- Big O rule book:
-1. Worst Case
-2. Remove Constants
-3. Different terms for inputs
-4. Drop Non Dominants   
-
-### Big theta (Θ) notation
-Big theta is a useful range that narrows the performance of an algorithm of .
-
-### Big oh (O) notation
-O(n) is an upper bound asymptotic notation.
-
-O(g(n)) = { f(n): there exists postive constants c and *n<sub>0</sub>* such that 0 ≤ f(n)  }
-
-### Big omega (Ω) notation
-(Ω) is an upper bound asymptotic notation. -->
-
-
 ![big oh, theta and omega graphs](../assets/img/analysis-design-algorithms/asymptotic-notation-light.svg)
 {: class="light-version" }
 
 ![big oh, theta and omega graphs](../assets/img/analysis-design-algorithms/asymptotic-notation-dark.svg)
 {: class="dark-version" }
 
+<div class="caption">Big theta, oh and omega graphs</div>
+
+## Big Oh (O) Notation
+
+*O*(*n*) is an **upper bound** asymptotic notation.
+
+*O*(*g*(*n*)) = { *f*(*n*): there exists postive constants *c* and *n*<sub>0</sub> such that **0 ≤ *f*(*n*) ≤ *cg*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
+
+Example: 2*n*<sup>2</sup> = *O*(*n*<sup>3</sup>), where *c* = 1 and *n*<sub>0</sub> = 2
+
+Examples of *O*(*n*<sup>2</sup>): *n*<sup>2</sup>, *n*<sup>2</sup> + *10n*, *n*  
+
+## Big Omega (Ω) Notation
+
+*Ω*(*n*) is a **lower bound** asymptotic notation.
+
+*Ω*(*g*(*n*)) = { *f*(*n*): there exists postive constants *c* and *n*<sub>0</sub> such that **0 ≤ *cg*(*n*) ≤ *f*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
+
+Example: √*n* = *Ω*(lg *n*), where *c* = 1 and *n*<sub>0</sub> = 16
+
+Examples of *Ω*(*n*<sup>2</sup>): *n*<sup>2</sup>, *n*<sup>2</sup> + *10n*, 2<sup>*n*</sup> 
+
+## Big Theta (Θ) Notation
+
+*Θ*(*n*) is an **exact value** or **useful range** that narrows the performance of an algorithm.
+
+*Θ*(*g*(*n*)) = { *f*(*n*): there exists postive constants *c*<sub>1</sub>, *c*<sub>2</sub>, and *n*<sub>0</sub> such that **0 ≤ *c*<sub>1</sub>*g*(*n*) ≤ *f*(*n*) ≤ *c*<sub>2</sub>*g*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
+
+Example: *n*<sup>2</sup> / 2 - 2*n* = *Θ*(*n*<sup>2</sup>), where  *c*<sub>1</sub> = 1/4, *c*<sub>2</sub> = 1/2, and *n*<sub>0</sub> = 8.
+
+**Theorem:** *f*(*n*) = *Θ*(*g*(*n*)) if and only if *f* = *O*(*g*(*n*)) and *f* = *Ω*(*g*(*n*)).
+
 ## Functions
 
-Check out this [Big Oh Cheatsheet](https://www.bigocheatsheet.com/) for an overview of big-oh notation for various data structures and functions.
+Check out this [Big Oh Cheatsheet](https://www.bigocheatsheet.com/){: target="_blank" } for an overview of big-oh notation for various data structures and functions.
 
 <table>
     <caption>Functions from least to greatest time complexity</caption>
@@ -97,5 +111,8 @@ Check out this [Big Oh Cheatsheet](https://www.bigocheatsheet.com/) for an overv
     </tbody>
 </table>
 
-<!-- ## Examples  -->
-
+<!-- **Rule book for O notation**
+1. Consider the worst case
+2. Remove constants
+3. Different terms for inputs
+4. Drop Non Dominants    -->
