@@ -1,12 +1,3 @@
 #index .landing-cards {
     grid-template-columns: 100%;
 }
-
-.post article table {
-    display: block;
-    overflow-x: auto;
-}
-
-.post article table code { 
-    line-height: 2em;
-}

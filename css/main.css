@@ -168,6 +168,10 @@ ul ul {
     margin-bottom: 16px;
 }
 
+.post article table code { 
+    line-height: 2em;
+}
+
 .post article p {
     line-height: 1.5rem;
 }

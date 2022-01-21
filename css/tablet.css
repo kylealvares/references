@@ -80,3 +80,18 @@ header #header-content, .content, .post, .mobile-toc, footer {
 .sibling-pages .sibling-page {
     font-size: 16px;
 }
+
+.post article table {
+    display: block;
+    overflow-x: auto;
+}
+
+.post article tr td:not(:first-child),
+.post article tr th:not(:first-child) {
+    padding-left: 20px;
+}
+
+.post article tr td:last-child,
+.post article tr th:last-child {
+    padding-right: 10px;
+}
