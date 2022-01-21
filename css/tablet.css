@@ -86,6 +86,10 @@ header #header-content, .content, .post, .mobile-toc, footer {
     overflow-x: auto;
 }
 
+.post article table caption {
+    min-width: calc(100vw - 70px);
+}
+
 .post article tr td:not(:first-child),
 .post article tr th:not(:first-child) {
     padding-left: 20px;
