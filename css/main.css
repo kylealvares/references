@@ -274,10 +274,10 @@ strong {
 }
 
 table {
-    display: table;
+    display: block;
     overflow: auto;
     border-collapse: collapse;
-    width: 100%;
+    max-width: calc(var(--max-page-width) - 260px);
 }
 
 tr td,
@@ -293,6 +293,7 @@ tr th {
 }
 
 table caption {
+    width: calc(var(--max-page-width) - 260px);
     caption-side: bottom;
     font-size: 13px;
     margin-top: 8px;
