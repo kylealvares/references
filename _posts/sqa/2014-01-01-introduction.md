@@ -10,9 +10,9 @@ toc: site.data.sqa
 **Quality Assurance (QA)** is the study of methods and disciplines for achieving quality results.
 
 Quality is not a single idea, as it has many aspects. 
-*Popularily*, quality is often associated with **percpetion**. 
-*Proffessionally*, there is an **ethical imperative** to quality, but even further than that it is a
-proffessional responsibility, a **moral** and **legal** requirement. 
+*Popularly*, quality is often associated with **perception**. 
+*Professionally*, there is an **ethical imperative** to quality, but even further than that it is a
+professional responsibility, a **moral** and **legal** requirement. 
 
 
 From a professional standpoint quality should be measurable, this includes:
