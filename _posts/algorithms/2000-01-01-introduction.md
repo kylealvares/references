@@ -13,7 +13,7 @@ There are several algorithms like cooking food or sorting numbers.
 ## Basic Terminology
 
 <dl>
-<dt>Alogrithm</dt>
+<dt>Algorithm</dt>
 <dd>An algorithm is any well-defined computational procedure that
     <li> Takes some value, or set of values, as <strong>input</strong>.</li>
     <li>Produces some value, or set of values, as <strong>output</strong>.</li>

@@ -86,7 +86,7 @@ User quality parameters often require **subjective analysis** and **nontechnical
     <tbody>
         <tr>
             <td>Usability</td>
-            <td>Sufficiently convient for intended users</td>
+            <td>Sufficiently convenient for intended users</td>
             <td>% of users happy with interface and ease of use</td>
         </tr>
         <tr>

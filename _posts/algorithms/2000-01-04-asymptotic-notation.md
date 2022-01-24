@@ -10,7 +10,7 @@ toc: site.data.algorithms
 Asymptotic notation describes the **running time** of an algorithm through functions that
 the set of natural numbers ```ℕ = {0, 1, 2,...}``` as their domain. 
 This notation is convenient for determining worst-case run time scenarios ```T(n)```.
-However in some cases asyptotic notation can extend the domain to the set of real numbers or restrict it to 
+However in some cases asymptotic notation can extend the domain to the set of real numbers or restrict it to 
 a subset of the natural numbers.
 
 The amount of time it takes for code to run varies not only between devices, but also between runs.
@@ -29,7 +29,7 @@ As a result, rather than measuring the time it takes a program to run, it is pre
 
 *O*(*n*) is an **upper bound** asymptotic notation.
 
-*O*(*g*(*n*)) = { *f*(*n*): there exists postive constants *c* and *n*<sub>0</sub> such that **0 ≤ *f*(*n*) ≤ *cg*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
+*O*(*g*(*n*)) = { *f*(*n*): there exists positive constants *c* and *n*<sub>0</sub> such that **0 ≤ *f*(*n*) ≤ *cg*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
 
 Example: 2*n*<sup>2</sup> = *O*(*n*<sup>3</sup>), where *c* = 1 and *n*<sub>0</sub> = 2
 
@@ -39,7 +39,7 @@ Examples of *O*(*n*<sup>2</sup>): *n*<sup>2</sup>, *n*<sup>2</sup> + *10n*, *n*
 
 *Ω*(*n*) is a **lower bound** asymptotic notation.
 
-*Ω*(*g*(*n*)) = { *f*(*n*): there exists postive constants *c* and *n*<sub>0</sub> such that **0 ≤ *cg*(*n*) ≤ *f*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
+*Ω*(*g*(*n*)) = { *f*(*n*): there exists positive constants *c* and *n*<sub>0</sub> such that **0 ≤ *cg*(*n*) ≤ *f*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
 
 Example: √*n* = *Ω*(lg *n*), where *c* = 1 and *n*<sub>0</sub> = 16
 
@@ -49,7 +49,7 @@ Examples of *Ω*(*n*<sup>2</sup>): *n*<sup>2</sup>, *n*<sup>2</sup> + *10n*, 2<s
 
 *Θ*(*n*) is an **exact value** or **useful range** that narrows the performance of an algorithm.
 
-*Θ*(*g*(*n*)) = { *f*(*n*): there exists postive constants *c*<sub>1</sub>, *c*<sub>2</sub>, and *n*<sub>0</sub> such that **0 ≤ *c*<sub>1</sub>*g*(*n*) ≤ *f*(*n*) ≤ *c*<sub>2</sub>*g*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
+*Θ*(*g*(*n*)) = { *f*(*n*): there exists positive constants *c*<sub>1</sub>, *c*<sub>2</sub>, and *n*<sub>0</sub> such that **0 ≤ *c*<sub>1</sub>*g*(*n*) ≤ *f*(*n*) ≤ *c*<sub>2</sub>*g*(*n*)** for all *n* ≥ *n*<sub>0</sub> }
 
 Example: *n*<sup>2</sup> / 2 - 2*n* = *Θ*(*n*<sup>2</sup>), where  *c*<sub>1</sub> = 1/4, *c*<sub>2</sub> = 1/2, and *n*<sub>0</sub> = 8.
 
@@ -57,7 +57,7 @@ Example: *n*<sup>2</sup> / 2 - 2*n* = *Θ*(*n*<sup>2</sup>), where  *c*<sub>1</s
 
 ## Functions
 
-Check out this [Big Oh Cheatsheet](https://www.bigocheatsheet.com/){: target="_blank" } for an overview of big-oh notation for various data structures and functions.
+Check out this [Big Oh Cheat Sheet](https://www.bigocheatsheet.com/){: target="_blank" } for an overview of big-oh notation for various data structures and functions.
 
 <table>
     <caption>Functions from least to greatest time complexity</caption>
@@ -85,7 +85,7 @@ Check out this [Big Oh Cheatsheet](https://www.bigocheatsheet.com/){: target="_b
             <td><em>n</em></td>
         </tr>
         <tr>
-            <td>Loglinear</td>
+            <td>Log-Linear</td>
             <td><em>n</em>log<em>n</em></td>
         </tr>
         <tr>
