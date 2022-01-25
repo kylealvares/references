@@ -34,7 +34,7 @@ contents:
         href: /references/postgresql/altering-table#add-col
       - title: Removing a Column
         href: /references/postgresql/altering-table#remove-col
-  - title: Select Statment
+  - title: Select Statement
     href: /references/postgresql/select
     subcategories:
         - title: Selecting All Columns
