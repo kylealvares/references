@@ -3,21 +3,29 @@ permalink: /404.html
 layout: default
 ---
 
+<link rel="stylesheet" href="/references/css/main.css">
+
 <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
     text-align: center;
   }
+
   h1 {
     margin: 30px 0;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  @media screen and (max-width: 1100px) {
+    header #header-content {
+      padding: 0 30px;
+    }
+  }
 </style>
 
-<link rel="stylesheet" href="/references/css/main.css">
 
 <div class="container">
   <h1>404</h1>
@@ -28,4 +36,3 @@ layout: default
   <br>
   <a href="{{ site.baseurl }}/" class="btn">Home</a>
 </div>
-
