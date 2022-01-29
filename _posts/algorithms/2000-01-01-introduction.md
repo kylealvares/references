@@ -7,12 +7,16 @@ collections: algorithms
 toc: site.data.algorithms
 ---
 
-Algorithms are steps for solving a problem. 
-There are several algorithms like cooking food or sorting numbers.
+To write good code, developers must take advantage of data structures and algorithms.
+A good developer must understand the trade off between **readability**, **memory**, and **speed**.
 
 ## Basic Terminology
 
 <dl>
+<dt>Data Structure</dt>
+<dd>A <strong>collection of values</strong>, that can have <strong>relationships</strong> and <strong>functions</strong>.
+<li>Each data structure is different and <strong>specialized</strong> for different purposes.</li>
+<li>Common data structures include <i>arrays</i>, <i>lists</i>, <i>stacks</i>, <i>queues</i>, <i>maps</i>, <i>trees</i>, etc.</li></dd>
 <dt>Algorithm</dt>
 <dd>An algorithm is any well-defined computational procedure that
     <li> Takes some value, or set of values, as <strong>input</strong>.</li>

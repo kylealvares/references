@@ -18,12 +18,12 @@ There are three **general principles** for quality assurance:
 - [Know How to Measure the Difference](#know-how-to-measure-the-difference)
 
 ## Know What You are Doing
-You should continously understand:
+You should continuously understand:
 * what you are building
 * how you are building it
 * what you are building currently does
 
-This necessitates organisation, such as a *management structure, reporting policies, regular meetings and reviews, and frequent test runs, among other things*. We usually deal with this by following a software process that includes regular *milestones, planning, scheduling, reporting,* and *tracking procedures*.
+This necessitates organization, such as a *management structure, reporting policies, regular meetings and reviews, and frequent test runs, among other things*. We usually deal with this by following a software process that includes regular *milestones, planning, scheduling, reporting,* and *tracking procedures*.
 
 ## Know What You Should be Doing
 
@@ -31,9 +31,9 @@ Here are some ways to determine what you should be doing:
 * Have **explicit requirements** and **specifications**
   * Use case analysis
   * Explicit acceptance tests
-  * Explicit protoypes
+  * Explicit prototypes
   * Frequent user feedback
-* Continuosly **track** and **update** the development or evolution cycle
+* Continuously **track** and **update** the development or evolution cycle
 
 ## Know How to Measure the Difference
 

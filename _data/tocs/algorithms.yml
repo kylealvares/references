@@ -1,8 +1,10 @@
-topic: Algorithms
+topic: Data Structures and Algorithms
 contents:
   - title: Introduction
     href: /references/algorithms/introduction
   - title: Asymptotic Notation
     href: /references/algorithms/asymptotic-notation
-  - title: Stack vs Heap Memory
-    href: /references/algorithms/stack-vs-heap
+  - title: Computer Memory
+    href: /references/algorithms/computer-memory
+  - title: Arrays
+    href: /references/algorithms/arrays
