@@ -3,11 +3,11 @@
   desc: Problem solving for pros.
   href: /references/algorithms/introduction
 - title: Database Systems
-  desc: An open source object-relational database system.
+  desc: Learn how store your data.
   href: /references/postgresql/introduction
 - title: Computer Architecture
-  desc:  Coming soon...
-  href: /references/computer-architecture/introduction
+  desc:  Computer basics
+  href: /references/architecture/introduction
 - title: Software Quality Assurance
   desc: The name says it all
   href: '/references/sqa/introduction'

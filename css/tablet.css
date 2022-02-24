@@ -87,6 +87,7 @@ header #header-content, .content, .post, .mobile-toc, footer {
 }
 
 .post article table caption {
+    width: calc(100vw);
     min-width: calc(100vw - 70px);
 }
 
