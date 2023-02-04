@@ -38,6 +38,10 @@ body.darkmode {
     color: var(--gray-30);
 }
 
+.darkmode .post article table li {
+    color: var(--gray-30);
+}
+
 .darkmode blockquote {
     border-left: 3px solid var(--gray-20);
 }
