@@ -7,7 +7,6 @@ collections: forensics
 toc: site.data.forensics
 ---
 
-
 Evidence refers to information or objects that may be admitted into court for judges and juries to consider when hearing a case. 
 
 ## Rules of Evidence
