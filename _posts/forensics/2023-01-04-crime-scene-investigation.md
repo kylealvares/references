@@ -184,4 +184,8 @@ Each item of evidence is packaged separately to avoid cross-contamination and it
 
 ## Crime Scene Reconstruction
 
-![crime scene reconstruction](../assets/img/forensics/crime-scene-reconstruction.svg)
+![crime scene reconstruction](../assets/img/forensics/crime-scene-reconstruction-light.svg)
+{: class="light-version" }
+
+![crime scene reconstruction](../assets/img/forensics/crime-scene-reconstruction-dark.svg)
+{: class="dark-version" }
