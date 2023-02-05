@@ -227,6 +227,14 @@ ul ul {
     margin-bottom: 8px;
 }
 
+.post article h3 {
+    font-size: 20px;
+}
+
+.post article h4 {
+    font-size: 20px;
+}
+
 .post .toc li {
     list-style-type: none;
 }
