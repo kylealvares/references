@@ -11,7 +11,7 @@ toc: site.data.forensics
 
 The science used in legal investigations includes but is not limited to: chemistry, *biology, physics, computer science, medicine, pharmacology, anthropology, archaeology, marine science and psychology*.
 
-The media have increased the public's awareness of the use of science in criminal investigations. It has created unrealistic expectations such as:
+The media has increased the public's awareness of the use of science in criminal investigations. It has created unrealistic expectations such as:
 * the amount of time a procedure takes
 * **every** crime scene yields forensic evidence that supports a case (*myth*)
 
@@ -21,7 +21,7 @@ The **CSI Effect** is the unrealistic and detrimental expectations that a prosec
 
 | Year | Event |
 | --- | --- |
-| Pre-700 B.C. | Fingerprints ar used fon clay tablets for business transactions in ancient Babylon |
+| Pre-700 B.C. | Fingerprints are used on clay tablets for business transactions in ancient Babylon |
 | 287 - 212 B.C. | Archimedes proves impurity of golden crown using density and buoyancy |
 | 1235 - 1248 A.D. | Sung Tz’u’s “The Washing Away of Wrongs” is released. The first recorded application of medicine to help solve crimes |
 | 1447 A.D. | Charles the Bold's missing teeth were used to identify his remains |
@@ -52,7 +52,7 @@ The **mid 19<sup>th</sup> century** is when forensic science began to coalesce a
 
 ### Alphonse Bertillon
 
-* Developed the first systematic method fo rthe identification and suspects of criminals
+* Developed the first systematic method fo the identification and suspects of criminals
 * Called **Anthropometry** or **Bertillonage**
   * Based on 11 body measurements
   * Descriptive information
@@ -66,7 +66,7 @@ The **mid 19<sup>th</sup> century** is when forensic science began to coalesce a
 * Fist classification system for fingerprints
   * Basic patterns: *Loop, Arch* and *Whorl*
 * Published *Finger Prints* (1892) which brought fingerprinting to the forefront of criminal identification
-  * Still considered primary reference in the field
+  * Still considered the primary reference in the field
 
 ### Edmond Locard
 
@@ -119,11 +119,11 @@ The **scientific method** offers a framework for how to conduct research. Scienc
 * Collecting data
 * Drawing conclusions
 
-Science is **collaborative** and depends on interactions within the scientific community. Different parts of the process may be carried out be different people at different times. 
+Science is **collaborative** and depends on interactions within the scientific community. Different parts of the process may be carried out by different people at different times. 
 
 Science relies on **creativity** as it is exciting, dynamic and unpredictable. Science relies on creative people thinking outside the box. Good problem soliving and solid methodology is important for both "hard" and "soft" sciences. 
 
-Science of **never over**, and scientific conclusions are always revisable if warranted by the evidence.
+Science is **never over**, and scientific conclusions are always revisable if warranted by the evidence.
 * Science is falsifiable
 * Something cannot be scientific if it does not admit the possibility 
 of being shown false
@@ -197,7 +197,7 @@ A forensic scientist is not concerned with the truth. A forensic scientist only 
 * In general:
   * Do the best work you can do on every case that is submitted
   * Provide a complete and honest report of your work
-  * Testify with their scientific opinion based on the report and their knowledge in the field
+  * Testify using their scientific opinion based on the report and their knowledge in the field
 * It is possible to have situations where different experts may draw different conclusions from the same evidence
   * Difference of opinion ≠ Unethical
   * Present and defend; the trier of fact makes the ultimate decision

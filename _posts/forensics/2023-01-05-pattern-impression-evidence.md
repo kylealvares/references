@@ -48,7 +48,7 @@ Of all, **contact time** is the most important.
 
 ### Latent Fingerprints
 
-* Once the finger touches a surface, **body persperation and/or oils** present on the finger ridges are transferred to that surface, leaving an impression
+* Once the finger touches a surface, **body persperation and / or oils** present on the finger ridges are transferred to that surface, leaving an impression
 * Prints deposited in this manner are **invisible to the eye** and are commonly referred to as latent or **invisible** fingerprints
 * **Friction ridge examination** is the preeminent method of **individualization** in forensic science
 * Latent prints in a proper environment can **last for years**

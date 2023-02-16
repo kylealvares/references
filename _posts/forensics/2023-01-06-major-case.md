@@ -57,12 +57,12 @@ developed and who is responsible for it’s security ?</li>
 
 The following criteria offences are deemed to be major cases:
 
-* **Homicides** as defined in subsection 222(4), Criminal Code of Canada, and attempts;
-* **Sexual assaults**, and all attempts (includes sexual interference, exploitation and touching);
-* Occurrences involving non-familial **abductions** & attempts;
-* **Missing person** occurrences, where circumstances indicate a strong possibility of foul play;
-* Occurrences suspected to be homicide involving found **human remains**;
-* **Criminal harassment** cases in which the offender is not known to the victim; and, 
+* **Homicides** as defined in subsection 222(4), Criminal Code of Canada, and attempts
+* **Sexual assaults**, and all attempts (includes sexual interference, exploitation and touching)
+* Occurrences involving non-familial **abductions** & attempts
+* **Missing person** occurrences, where circumstances indicate a strong possibility of foul play
+* Occurrences suspected to be homicide involving found **human remains**
+* **Criminal harassment** cases in which the offender is not known to the victim
 * Any other case designated as a major case by the Major Case Management Executive Board
 
 ## Major Case Identification System
@@ -153,10 +153,10 @@ change
 
 * Forensic Identification Officers 
 * Forensic pathology
-* Forensic odontology/dentistry
-* Forensic anthropology/archaeology
+* Forensic odontology / dentistry
+* Forensic anthropology / archaeology
 * Forensic Entomology
-* Pattern/wound interpretation
+* Pattern / wound interpretation
 * Other medical experts
 * Other forensic experts
     * CFS
@@ -220,7 +220,7 @@ that make and offer recommendations. Why?
 
 * Coroners in Ontario are medical doctors with specialized 
 training in death investigation
-* Available to the community 24 hrs a day/7 days a week
+* Available to the community 24 hrs a day / 7 days a week
 * Coroners report to the Chief Coroner who is responsible 
 for all coroners in Ontario
 * Coroners investigate deaths that happen under certain 
@@ -245,7 +245,7 @@ Currently have dual leadership
 </thead>
 <tbody>
 <tr>
-<td>Oversee/governing body</td>
+<td>Oversee / governing body</td>
 <td>Conducts autopsy</td>
 </tr>
 <tr>
@@ -347,16 +347,16 @@ Indicators of chemical death include:
 #### Thermal Traumatic Death
 
 * Exposure to excessive heat or cold
-* Hypothermia –excessive cold
+* Hypothermia (excessive cold)
     * Alcohol intoxication
-* Hyperthermia –excessive heat
+* Hyperthermia (excessive heat)
     * Young and elderly
 
 #### Electrical Traumatic Death
 
 * Ventricular fibrillation
     * Low voltage
-◦Alternating current
+    * Alternating current
 * Defibrillatory
     * Higher voltages
     * Electrical burns
@@ -369,4 +369,4 @@ Indicators of chemical death include:
     * Drowning
     * Strangulation: manual & ligature
 * Autopsy findings
-  * Hyoid bone/cornu of thyroid cartilage & hemorrhaging around fracture site
+  * Hyoid bone / cornu of thyroid cartilage & hemorrhaging around fracture site

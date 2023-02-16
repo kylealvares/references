@@ -23,7 +23,7 @@ If the information survives, it can be accepted as evidence of a material fact i
 
 ## Admissibility 
 
-A key pre-requisite of admissibility for any piece of information is *a solid supportive foundation for any offer of evidence*. There must be **enough information** to convince a judge that the proposed time of evidence **may in fact be true**.
+A key pre-requisite of admissibility for any piece of information is **a solid supportive foundation for any offer of evidence**. There must be **enough information** to convince a judge that the proposed time of evidence **may in fact be true**.
 
 **Admissible evidence** must be:
 * Reliable
@@ -51,7 +51,7 @@ The judge disallowed the testimony:
 
 He appealed but the decision was upheld and the **Fyre Standard** was developed. The Fyre Standard established the criteria known as **general acceptance**. To meet the Fyre Standard the court must decide whether the questioned **procedure**, **technique**, or **principle** is "generally accepted" by a **meaningful segment of the relevant scientific community**.
 
-Whe a test **has not gained scientific recognition** from psychological and physiological authorities, expert testimony regarding the results of such a test is inadmissible.
+When a test **has not gained scientific recognition** from psychological and physiological authorities, expert testimony regarding the results of such a test is inadmissible.
 
 ### The Federal Rules of Evidence
 
@@ -87,7 +87,7 @@ evidence admissibility is addressed.
  * Established the judge as the gatekeeper
 1. Joiner (*General Electric Company vs. Joiner*) 
    * Employee claimed that the chemicals he was exposed to at work gave him cancer and wanted to have animal studies submitted to support his case
-   * The cour rejected these studies because they focused on:
+   * The court rejected these studies because they focused on:
       * Different chemicals
       * Different exposure levels
    * Evidence must pass **Daubert criteria** and **relevance test**
@@ -164,7 +164,7 @@ the evidence cannot be understated, The significance depends on a variety of fac
     * Toxicology samples
     * Explosives
 * Trace
-    * Locard’sexchange principle
+    * Locard’s exchange principle
 * Fingerprint
     * Latent (invisible) print development
     * Print identification

@@ -23,9 +23,9 @@ Mary Gibson,
 Marjorie Farber,
 William Farber
 
-* Based on this, both William Farber and Carmela Coppolino’sbodies were exhumed
+* Based on this, both William Farber and Carmela Coppolino’s bodies were exhumed
 * Dr. Carl Coppolino was tried in NJ for the death of William Farber and acquitted based on a lack of evidence for poisoning
-* In Florida, during the trial, it was theorized that Dr. Coppolinoexploited his access to many potent drugs, including once called succinylcholine chloride (an injectable, paralytic agent)
+* In Florida, during the trial, it was theorized that Dr. Coppolino exploited his access to many potent drugs, including once called succinylcholine chloride (an injectable, paralytic agent)
     * A novel technique for the detection of this chemical was used to detect it in Carmela’s brain
 * This, and other evidence, was used to convict Dr. Carl of second
 

@@ -69,7 +69,7 @@ The first responder is the **first person** at the scene of a crime. They are th
 
 #### The Duties of a First Responder
 
-1. Assist the victime and prevent any changes to the victim
+1. Assist the victim and prevent any changes to the victim
 2. Search for and arrest the suspect if they are still there
 3. Detain any witnesses
     * Keep them seperated to maintain objectivity
@@ -159,7 +159,7 @@ Several typical examples of crime-scene search patterns. The pattern selected no
    * Advantages: useful in small confined areas
    * Disadvantages: may vary depending on individual search methods used within each zone
 5. Ray
-   * Searchers start at common/central point and walk away from each other
+   * Searchers start at common / central point and walk away from each other
    * Advantages: good for very large outdoor areas
    * Disadvantages: not ofen used, ineffective
 
