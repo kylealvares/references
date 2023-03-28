@@ -7,6 +7,8 @@ collections: forensics
 toc: site.data.forensics
 ---
 
+{% assign quiz = site.data.quizzes.forensics.witness %}
+
 ## Types of Witnesses
 
 1. Eyewitness
@@ -119,3 +121,5 @@ Even if you are deemed to be competent, the significance placed on the expert’
   * Should not be an **advocate of one party's cause**
   * Are merely weight in on the **science**
 * It is the duty of the **judge or jury** to weigh the pros and cons of all the information presented when deciding guilt or innocence
+
+{% include quiz.html caption="Textbook Chapter(s): 1,3" %}

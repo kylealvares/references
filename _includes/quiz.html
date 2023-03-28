@@ -1,0 +1,44 @@
+<h2>Quiz</h2>
+<style>
+    .quiz tbody tr .hidden {
+        transition: 0.1s ease;
+        color: transparent;
+    }
+
+    .default-quiz {
+        display: block;
+    }
+
+    .mobile-quiz {
+        display: none;
+    }
+
+    .darkmode .quiz tbody tr:hover .hidden {
+        transition: 0.1s ease;
+        color: white;
+    }
+
+    .quiz tbody tr:hover .hidden {
+        color: black;
+    }
+    @media only screen and (max-width: 800px) {
+
+    }
+</style>
+<table class="quiz">
+    <thead>
+        <tr>
+            <td>Question</td>
+            <td>Answer</td>
+        </tr>
+    </thead>
+    <tbody>
+            {% for entry in quiz %}
+            <tr>
+                <td>{{ entry.question }}</td>
+                <td class="hidden">{{ entry.answer }}</td>
+            </tr>
+            {% endfor %}
+    </tbody>
+</table>
+<div class="caption">{{ include.caption }}</div>

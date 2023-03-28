@@ -7,6 +7,8 @@ collections: forensics
 toc: site.data.forensics
 ---
 
+{% assign quiz = site.data.quizzes.forensics.evidence %}
+
 Evidence refers to information or objects that may be admitted into court for judges and juries to consider when hearing a case. 
 
 ## Rules of Evidence
@@ -174,3 +176,5 @@ the evidence cannot be understated, The significance depends on a variety of fac
 * Firearm and Toolmarks
     * Fired bullets
     * Cartridge casings
+
+{% include quiz.html caption="Textbook Chapter(s): 1,3" %}

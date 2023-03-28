@@ -7,6 +7,8 @@ collections: forensics
 toc: site.data.forensics
 ---
 
+{% assign quiz = site.data.quizzes.forensics.introduction %}
+
 **Forensic science** also known as criminalistics is the application of science in criminal and civil laws. It is the intersection of law and science.
 
 The science used in legal investigations includes but is not limited to: chemistry, *biology, physics, computer science, medicine, pharmacology, anthropology, archaeology, marine science and psychology*.
@@ -201,3 +203,5 @@ A forensic scientist is not concerned with the truth. A forensic scientist only 
 * It is possible to have situations where different experts may draw different conclusions from the same evidence
   * Difference of opinion ≠ Unethical
   * Present and defend; the trier of fact makes the ultimate decision
+
+{% include quiz.html caption="Textbook Chapter(s): 1" %}
