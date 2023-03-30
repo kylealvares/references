@@ -13,12 +13,14 @@
         display: none;
     }
 
-    .darkmode .quiz tbody tr:hover .hidden {
+    .darkmode .quiz tbody tr:hover .hidden,
+    .darkmode .quiz tbody tr:active .hidden {
         transition: 0.1s ease;
         color: white;
-    }
-
-    .quiz tbody tr:hover .hidden {
+    
+}
+    .quiz tbody tr:hover .hidden,
+    .quiz tbody tr:active .hidden {
         color: black;
     }
     @media only screen and (max-width: 800px) {
